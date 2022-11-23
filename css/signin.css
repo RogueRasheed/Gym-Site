@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+.header img{
+    width: 8.5%;
+    margin-left: 560px;
+    margin-top: 5px;
+}
+
+.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+div.scrollmenu a:hover {
+    background-color: #777;
+  }
+.welcomemessage{
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 40px;
+}
+.formwrapper{
+   background-color: black;
+   text-align: center;
+}
+
+.forminput{
+    background-color: black;
+    display: inline-grid;
+    padding-bottom: 150px;
+    width: 300px;
+}
+
+#content{
+    text-align: center;
+    margin: auto; 
+    width: 500px;
+    background-color: #000;
+    opacity: 0.9;
+}
+
+.fullname{
+    padding: 4px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.password{
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+label{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+select{
+    padding: 3px;
+}
+
+.Next{
+    padding: 5px;
+    width: 50%;
+    background-color: #777;
+    border-radius: 10px;
+}
+
+.Next a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+.Next a:hover{
+    text-decoration: underline;
+}
